@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* body */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background: url(../img/main-img/background-mountain.jpg);
+}
+
+
+main {    
+    overflow: auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+  
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #090909;
+ }
+
+.content {
+    width: 50%;
+    box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 150px auto;
+    position: relative;
+    background: rgba(231, 226, 226,0.5);
+}
+
+.content p {
+    text-align: justify;
+    padding: 10px 35px;
+    font-size: 20px;
+    overflow: auto;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+}
+
+.button input[type="button"] {
+    color: whitesmoke;
+    text-decoration: none;
+    border-radius: 11px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    font-size: 25px;
+    border: 1px solid black;
+}
+
+.button input[type="button"]:hover {
+	font-weight: bold;
+    background-color: rgba(41, 235, 73, 0.979);
+    color: black;
+}
+
+
+
+/* footer */
+
+footer {
+    text-align: bottom;
+    padding: 20px;
+    color: white;
+    background-color: #090909;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    .content,
+    aside {
+        width: 85%;
+        padding: 0;
+    }
+}
