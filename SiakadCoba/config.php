@@ -3,7 +3,7 @@
 $db_host = "localhost";
 $db_user = "root";
 $db_pass = "";
-$db_name = "users";
+$db_name = "database_siakad";
 
 try {    
     //create PDO connection 
